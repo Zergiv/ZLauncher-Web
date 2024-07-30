@@ -119,7 +119,7 @@
 						<h1 class="text-3xl font-bold lg:text-4xl">Take back the control.</h1>
 						<p class="mt-2">Have a feature you'd like to see? Let us know.</p>
 						<Button size="lg" variant="outline" href="https://github.com/NoCrypt/migu/issues" class="group mt-4 rounded-[2rem] px-6">
-							Get Started
+							Request a feature
 							<ChevronRight
 								class="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1"
 							/>

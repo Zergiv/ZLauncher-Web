@@ -4,7 +4,7 @@ export let seo = {
 	title: 'Migu',
 	description:
 		'Stream anime torrents, real-time with no waiting for downloads.',
-	image: 'imgs/banner.png',
+	image: 'https://miguapp.pages.dev/imgs/banner.png',
 	url: 'https://miguapp.pages.dev',
 	keywords: 'migu, torrent, anime, streaming, extensions, realtime'
 };

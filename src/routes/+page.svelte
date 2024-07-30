@@ -14,6 +14,7 @@
 	<meta name="keywords" content={seo.keywords} />
 
 	<meta property="og:title" content={seo.title} />
+	<meta property="og:type" content="website" />
 	<meta property="og:description" content={seo.description} />
 	<meta property="og:image" content={seo.image} />
 	<meta property="og:site_name" content={seo.title} />
