@@ -32,7 +32,7 @@
 			label: 'Legal',
 			items: [
 				{
-					href: 'https://github.com/NoCrypt/migu/blob/main/LICENSE',
+					href: 'https://github.com/DeltaV3/ZLauncher/blob/master/LICENSE.txt',
 					name: 'Licensia'
 				}
 			]
