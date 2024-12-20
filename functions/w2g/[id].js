@@ -8,11 +8,11 @@ export function onRequest ({ params }) {
 <!DOCTYPE html>
 <html style=background:#000>
   <head>
-    <meta http-equiv=refresh content="5; url=https://miguapp.pages.dev">
+    <meta http-equiv=refresh content="5; url=https://techterra.x10.mx">
     <meta property="og:title" content="Watch Together">
-    <meta property="og:description" content="Stream anime torrents, real-time with no waiting for downloads">
-    <meta property="og:site_name" content="Migu">
-    <meta property="og:image" content=https://miguapp.pages.dev/imgs/banner.png>
+    <meta property="og:description" content="Instala Minecraft, Java, Forge y los mods del servidor con facilidad.">
+    <meta property="og:site_name" content="ZLauncher">
+    <meta property="og:image" content=http://techterra.x10.mx/minecraft_title.png>
     <meta property="og:url" content=migu://w2g/${id}>
     <meta data-vmid="twitter:card" name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#17191C">
@@ -28,6 +28,6 @@ export function onRequest ({ params }) {
       }
     })
   } catch (e) {
-    return Response.redirect('https://miguapp.pages.dev/')
+    return Response.redirect('https://techterra.x10.mx/')
   }
 }

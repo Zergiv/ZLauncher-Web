@@ -30,7 +30,7 @@
 
 <HeroSection />
 <div class="flex w-full items-center justify-center">
-	<img src="imgs/logo.webp" alt="migu logo" class="h-32 w-auto text-center" />
+	<img src="http://techterra.x10.mx/minecraft_title.png" alt="migu logo" class="h-32 w-auto text-center" />
 </div>
 <!-- <ClientSection /> -->
 <SphereMask />

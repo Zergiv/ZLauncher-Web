@@ -3,9 +3,9 @@
 export let seo = {
 	title: 'ZLauncher',
 	description:
-		'Stream anime torrents, real-time with no waiting for downloads.',
-	image: 'https://miguapp.pages.dev/imgs/banner.png',
-	url: 'https://miguapp.pages.dev',
+		'Instala Minecraft, Java, Forge y los mods del servidor con facilidad.',
+	image: 'http://techterra.x10.mx/minecraft_title.png',
+	url: 'https://techterra.x10.mx',
 	keywords: 'migu, torrent, anime, streaming, extensions, realtime'
 };
 

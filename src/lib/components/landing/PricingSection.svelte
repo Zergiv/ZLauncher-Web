@@ -14,9 +14,9 @@
 	let productPrices = [
 		{
 			id: 'price_1',
-			name: 'Github Download',
-			description: 'Migu will always be free forever',
-			features: ['Free to download', 'Many QOL features', 'Better mobile experience', 'Back button is working as intended'],
+			name: 'Descarga de GitHub',
+			description: 'ZLauncher siempre será gratuito.',
+			features: ['Descarga gratuita', 'Many QOL features', 'Better mobile experience', 'Back button is working as intended'],
 			monthlyPrice: 0,
 			yearlyPrice: 0,
 			isMostPopular: true,
@@ -53,10 +53,10 @@
 <section id="pricing">
 	<div class="mx-auto flex max-w-screen-xl flex-col gap-8 px-4 py-14 md:px-8">
 		<div class="mx-auto max-w-5xl text-center">
-			<h4 class="text-xl font-bold tracking-tight text-black dark:text-white">Pricing</h4>
+			<h4 class="text-xl font-bold tracking-tight text-black dark:text-white">Precio</h4>
 
 			<h2 class="mb-6 text-5xl font-bold tracking-tight text-black dark:text-white sm:text-6xl">
-				It's always free.
+				Siempre es gratis.
 			</h2>
 
 			<!-- <p class="mt-6 text-xl leading-8 text-black/80 dark:text-white">
@@ -137,7 +137,7 @@
 								'transform-gpu decoration-red-500 decoration-wavy decoration-4 ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-2',
 								price.disabled ? 'line-through' : ''
 							)}
-							href="https://github.com/NoCrypt/migu/releases/latest"
+							href="https://github.com/DeltaV3/ZLauncher/releases/latest"
 						>
 							<span
 								class="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform-gpu bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-96 dark:bg-black"

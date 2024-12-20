@@ -52,12 +52,12 @@
 	<!-- {#if innerWidth < 768} -->
 		<div class="container flex h-14 items-center justify-between">
 			<a class="text-md flex items-center" href="/"> 
-				<img src="imgs/logo.webp" class="h-5 w-auto" alt="migu logo"/>
+				<img src="http://techterra.x10.mx/minecraft_title.png" class="h-5 w-auto" alt="migu logo"/>
 			</a>
 
 			<div class="ml-auto flex h-full items-center">
 				<!-- <a class="mr-6 text-sm" href="/signin"> Log in </a> -->
-				<Button variant="secondary" class="text-sm" href="https://github.com/NoCrypt/migu/releases/latest">Download</Button>
+				<Button variant="secondary" class="text-sm" href="https://github.com/DeltaV3/ZLauncher/releases/latest">Descargar</Button>
 			</div>
 			<!-- <button class="hidden" use:toggleOverflowHidden>
 				<span class="sr-only">Toggle menu</span>
