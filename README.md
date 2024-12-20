@@ -8,4 +8,4 @@
 
 ---
 
-<p align="center"> Launcher modificado por Delta y Zergiv2, instalación de minecraft y mods automática <a href="https://github.com/NoCrypt/migu-web/">repositorio original</a>.</p>
+<p align="center"> Pagina web modificada por Delta y Zergiv2, para Zlauncher <a href="https://github.com/NoCrypt/migu-web/">repositorio original</a>.</p>
