@@ -2,19 +2,19 @@
 	import {
 		ChevronRight,
 		CogIcon,
-		FilmIcon,
+		Pickaxe,
 		Globe,
-		PopcornIcon,
-		Rss,
-		TvMinimalPlayIcon,
-		WaypointsIcon
+		Sword,
+		Shovel,
+		Gamepad,
+		Box
 	} from 'lucide-svelte';
 	import Marquee from '../magic/marquee/Marquee.svelte';
 	import CtaCard from './CtaCard.svelte';
 	import Button from '../ui/button/button.svelte';
 	let tiles: { icon: any; bg: string }[] = [
 		{
-			icon: TvMinimalPlayIcon,
+			icon: Gamepad,
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px]'
 		},
 		{
@@ -22,19 +22,19 @@
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 opacity-70 blur-[20px]'
 		},
 		{
-			icon: WaypointsIcon,
+			icon: Box,
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-green-500 via-teal-500 to-emerald-600 opacity-70 blur-[20px]'
 		},
 		{
-			icon: FilmIcon,
+			icon: Pickaxe,
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-600 opacity-70 blur-[20px]'
 		},
 		{
-			icon: Rss,
+			icon: Shovel,
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-orange-600 via-rose-600 to-violet-600 opacity-70 blur-[20px]'
 		},
 		{
-			icon: PopcornIcon,
+			icon: Sword,
 			bg: 'pointer-events-none absolute left-1/2 top-1/2 size-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible rounded-full bg-gradient-to-r from-gray-600 via-gray-500 to-gray-400 opacity-70 blur-[20px]'
 		}
 	];

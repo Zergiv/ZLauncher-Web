@@ -23,7 +23,7 @@
 			label: 'Comunidad',
 			items: [
 				{
-					href: 'https://github.com/ZLauncher/DeltaV3',
+					href: 'https://github.com/DeltaV3/ZLauncher',
 					name: 'Github'
 				}
 			]
@@ -33,7 +33,7 @@
 			items: [
 				{
 					href: 'https://github.com/DeltaV3/ZLauncher/blob/master/LICENSE.txt',
-					name: 'Licensia'
+					name: 'Licencia'
 				}
 			]
 		}
