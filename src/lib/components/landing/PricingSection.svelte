@@ -16,7 +16,7 @@
 			id: 'price_1',
 			name: 'Descarga de GitHub',
 			description: 'ZLauncher siempre será gratuito.',
-			features: ['Descarga gratuita', 'Many QOL features', 'Better mobile experience', 'Back button is working as intended'],
+			features: ['Descarga gratuita', 'Actualización de mods automatica', 'Better mobile experience', 'Back button is working as intended'],
 			monthlyPrice: 0,
 			yearlyPrice: 0,
 			isMostPopular: true,
