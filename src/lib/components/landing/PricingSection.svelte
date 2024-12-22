@@ -16,28 +16,12 @@
 			id: 'price_1',
 			name: 'Descarga de GitHub',
 			description: 'ZLauncher siempre será gratuito.',
-			features: ['Descarga gratuita', 'Many QOL features', 'Better mobile experience', 'Back button is working as intended'],
+			features: ['Descarga gratuita', 'Actualización de mods automática', 'Better mobile experience', 'Back button is working as intended'],
 			monthlyPrice: 0,
 			yearlyPrice: 0,
 			isMostPopular: true,
 			disabled: false
 		},
-		{
-			id: 'price_2',
-			name: 'Google Play Exclusive',
-			description: "We're not gatekeeping anything behind paywall",
-			features: [
-				'Take a few days to verify an update',
-				'No APK in the project repo',
-				'No AMOLED background',
-				'Can\'t even use back button',
-				"Can't control seeding speed"
-			],
-			monthlyPrice: 1000,
-			yearlyPrice: 10000,
-			isMostPopular: false,
-			disabled: true
-		}
 	];
 	let interval: Interval = 'month';
 	let isLoading = false;
@@ -53,7 +37,7 @@
 <section id="pricing">
 	<div class="mx-auto flex max-w-screen-xl flex-col gap-8 px-4 py-14 md:px-8">
 		<div class="mx-auto max-w-5xl text-center">
-			<h4 class="text-xl font-bold tracking-tight text-black dark:text-white">Precio</h4>
+			<h4 class="text-xl font-bold tracking-tight text-black dark:text-white">Descarga</h4>
 
 			<h2 class="mb-6 text-5xl font-bold tracking-tight text-black dark:text-white sm:text-6xl">
 				Siempre es gratis.
@@ -85,7 +69,7 @@
 		</div> -->
 
 		<div
-			class="mx-auto grid flex-col justify-center gap-4 sm:grid-cols-2 md:w-[640px] lg:grid-cols-2"
+			class="mx-auto flex justify-center items-center w-full gap-4 sm:flex-col lg:flex-row"
 		>
 			{#each productPrices as price, id}
 				<div
