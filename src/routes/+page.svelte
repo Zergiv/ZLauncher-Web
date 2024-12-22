@@ -26,13 +26,37 @@
 	<meta name="twitter:image" content={seo.image} />
 	<meta name="twitter:site" content="@NoCrypt" />
 </svelte:head>
+
+<style>
+	@keyframes float {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-10px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	.image {
+		animation: float 3s ease-in-out infinite;
+	}
+</style>
+
 <DotPattern class="[mask-image:radial-gradient(650px_circle_at_center_50%,white,transparent)] opacity-65" />
 
 <HeroSection />
 <div class="flex w-full items-center justify-center">
-	<img src="http://techterra.x10.mx/minecraft_title.png" alt="migu logo" class="h-32 w-auto text-center" />
+	<img 
+		src="http://techterra.x10.mx/minecraft_title.png" 
+		alt="migu logo" 
+		class="image h-32 w-auto text-center" 
+	/>
 </div>
 <!-- <ClientSection /> -->
 <SphereMask />
 <PricingSection />
 <CtaSection />
+
