@@ -43,12 +43,16 @@
 	.image {
 		animation: float 3s ease-in-out infinite;
 	}
+	
+	.h-32 {
+    height: auto;
+}
 </style>
 
 <DotPattern class="[mask-image:radial-gradient(650px_circle_at_center_50%,white,transparent)] opacity-65" />
 
 <HeroSection />
-<div class="flex w-full items-center justify-center">
+<div class="flex w-auto items-center justify-center">
 	<img 
 		src="http://techterra.x10.mx/minecraft_title.png" 
 		alt="migu logo" 
