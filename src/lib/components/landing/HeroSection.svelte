@@ -81,7 +81,7 @@
 			/></svg
 		>
 	</div>
-
+	
 	<div class="image-grid grid">
 		<div class="grid-block">
 			<div class="tile">
@@ -147,7 +147,6 @@
 				</a>
 			</div>
 		</div>
-
 		<div class="grid-block">
 			<div class="tile">
 				<a class="tile-link" href="/">
@@ -244,7 +243,7 @@
 
 	.image-grid {
 		-webkit-transform: rotateX(45deg) rotateZ(45deg);
-		transform: rotateX(65deg) rotateZ(-35deg);
+		transform: rotateX(45deg) rotateZ(-45deg);
 		-webkit-perspective: 1000px;
 		perspective: 1000px;
 	}

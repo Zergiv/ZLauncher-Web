@@ -17,6 +17,7 @@
   <svg
     aria-hidden="true"
     class={cn("pointer-events-none absolute inset-0 h-full w-full ", className)}
+    style="height: 180%;"
     {...$$restProps}
     fill={fillColor}
   >
