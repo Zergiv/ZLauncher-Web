@@ -18,11 +18,7 @@
 </script>
 
 <section id="hero" class="relative mx-auto mt-32 max-w-7xl px-6 text-center md:px-8">
-	<div
-		class="-10 flex  items-center justify-center"
-	>
-	
-	</div>
+	<div class="-10 flex items-center justify-center"></div>
 	<h1
 		class="-translate-y-4 animate-fade-in text-balance bg-gradient-to-br from-black from-30% to-black/40 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-white dark:to-white/40 sm:text-6xl md:text-7xl lg:text-8xl"
 	>
@@ -50,14 +46,14 @@
 	</Button>
 
 	<p
-		class="mt-8 -translate-y-4 animate-fade-in text-balance text-sm tracking-tight text-gray-400 opacity-0 [--animation-delay:600ms] md:text-md"
+		class="md:text-md mt-8 -translate-y-4 animate-fade-in text-balance text-sm tracking-tight text-gray-400 opacity-0 [--animation-delay:600ms]"
 	>
 		Disponible en:
 		<br class="hidden md:block" />
 		{' '}
 	</p>
 	<div
-		class="mt-4 flex -translate-y-4 animate-fade-in justify-center gap-4 text-balance text-sm tracking-tight text-gray-400 opacity-0 [--animation-delay:600ms] md:text-md"
+		class="md:text-md mt-4 flex -translate-y-4 animate-fade-in justify-center gap-4 text-balance text-sm tracking-tight text-gray-400 opacity-0 [--animation-delay:600ms]"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 			><path
@@ -86,37 +82,293 @@
 		>
 	</div>
 
-	<div
-		use:inview={{
-			unobserveOnEnter: true,
-			rootMargin: '-100px'
-		}}
-		on:inview_change={handleChange}
-		class="relative mt-16 animate-fade-up opacity-0 [--animation-delay:400ms] [perspective:2000px] after:absolute after:inset-0 after:z-50 after:[background:linear-gradient(to_top,hsl(var(--background))_30%,transparent)]"
-	>
-		<div
-			class="rounded-xl border border-white/10 bg-white bg-opacity-[0.01] before:absolute before:bottom-1/2 before:left-0 before:top-0 before:size-full before:opacity-0 before:[background-image:linear-gradient(to_bottom,var(--color-one),var(--color-one),transparent_40%)] before:[filter:blur(180px)] {inView
-				? 'before:animate-image-glow'
-				: ''}"
-		>
-			<BorderBeam
-				size={200}
-				duration={12}
-				delay={0}
-				colorFrom="var(--color-one)"
-				colorTo="var(--color-two)"
-			/>
+	<div class="image-grid grid">
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img1"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
 
-			<img
-				src="imgs/hero-dark.webp"
-				alt="HeroDarkImage"
-				class="relative hidden size-full rounded-[inherit] border object-contain dark:block"
-			/>
-			<img
-				src="imgs/hero-dark.webp"
-				alt="HeroDarkImage"
-				class="relative block hidden size-full rounded-[inherit] border object-contain"
-			/>
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img2"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3eO9L51TGiTghLao-VLNhO_C0egdgv7NfamlpdYbMAKCfXNlkk7WPPcxMJTaU9hO-HNnTqUivtavZ-6iK9mzoq0Qf3kJ5MAcnCoDUqbzd8VzpFKhu3mqDYZBG0KNGVxNHSEUwUiTxCUEFf_yFnNNLL0=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img3"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3dhqk2CMZiOyFNPfjfffFIRIp1r9XjSNhfWHXk3gHDNf0hGwwWtXlQbtTf7DBp9t_KnCVull_WGpXNDVRtLkslw1qskUAjbSMEilFituKSeJVKqzVbsTFOeLfvd92nowevb7EGG3Pno37_WfsShZnYP=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img4"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3eYKEnL-pUFhF9aCKHKKRNrWEyJJ-7SCD8-EJLpBkVKp6jIHEKvBGiOL0hPW5f6UAcyoxaR06XRDUayk0NaQMxpSWCjnNyqdypHsIzrPfSwQZmOBR4-i3VCc0Ywg9CUmFYv2vs-rbmEmio2-4ZUuokZ=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img5"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3ckl0QrFbuW3W6VJ88rW0TeCZYumT9H7ZzN1dW6nrxOcf6mxEYT79iai43_T8i9AbiViFkpJBqVtS6d7loh-IgUwviFhdnkg1U-BNgeBPvstSBHCqWokHbx3EIHTkZFh3QkaTykBxZH7BqYvni2ukTL=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img6"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3csXE_23DqssKWd76nUGNa5re7em4ySmZEif2L_jxJBpIV0pV3qHYXQope682nX2Qs04nhMHVZlNNwbUGzz6CWjaywX5VaH5TX2Wrh0iocAk5aRrN2ud7H55mGYdR-z-QEyK5ckiZ4BGZLiSpXe-TmD=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img7"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3fbpkwsUjaB8Cv6JFW_Z5E_7WjTwR3hEfafXoDmSsxBN_I_TKHLw3ngMCcOhYVv0KrzdJpjBfRzmTPVUikRZpyy53lb10ENbvWxrP-Hf83Y1KXc2RG0zLXoXqQjaT7NP9bBKEY7iv2I8sRIUJxCU9ql=w1703-h973-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img8"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3cCwp7dKtvwMA8uf_Y3OTxZz-CiYRpay0fSZhfqYXCeDWBBfQERYnB7DzDCbsyyzdzoOU7_9BbW3WR5VaY9YPD3syn3VgZDxj6-2qTOwDw_HDlnLd92LlvCZIEr8oDKVt4AU7q-oJNHE6O9sRhGAVMi=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img9"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3ffctj4lOMbhO6QA2a-9o24LTDFytAw4WAnxkpZr3fCDQHPyXTXeXqaI7KrD2ktnpXyfzGKvsax_oekoUGojWEGc9Ghte4ycSxgx6ZydR3LsnJlXO5zKwpoZYIBCIlYxxpq2PNcc9irUdA7P68_rdSY=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
+		</div>
+
+		<div class="grid-block">
+			<div class="tile">
+				<a class="tile-link" href="/">
+					<!-- svelte-ignore a11y-img-redundant-alt -->
+					<img
+						class="tile-img tile-img10"
+						src="https://lh3.googleusercontent.com/pw/ACtC-3dM37DnDx6OrPA4-VazUuGM5p9grWJtW8SLNQ9vo3xZlGTHw8wt6NXShF3umpCjoaM6XUyvIDl8una8MAd4z-hU23Fuz9_AjCkTpQ4YV3k5C0cXPzAq70WhaKHAEFHKcDXGVqAZVl5HgOSr9hSbHrLr=w1384-h791-no"
+						alt="Image"
+					/>
+				</a>
+			</div>
 		</div>
 	</div>
 </section>
+
+<style>
+
+	*,
+	*:before,
+	*:after {
+		box-sizing: inherit;
+	}
+
+	.grid {
+		width: 100%;
+		max-width: 60rem;
+		margin-left: auto;
+		margin-right: auto;
+
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.grid-block {
+		width: 50%;
+		min-height: 11.25rem;
+		padding: 1rem;
+	}
+
+	.image-grid {
+		-webkit-transform: rotateX(45deg) rotateZ(45deg);
+		transform: rotateX(65deg) rotateZ(-35deg);
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+	}
+
+	.image-grid .tile-link:hover .tile-img {
+		top: -1.3rem;
+		left: 1.3rem;
+	}
+
+	.image-grid .tile-img {
+		position: relative;
+		top: 0;
+		left: 0;
+		-webkit-transition-property: opacity, top, left, box-shadow;
+		transition-property: opacity, top, left, box-shadow;
+	}
+
+	.tile-link:hover .tile-img {
+		opacity: 1;
+	}
+
+	.tile-link:hover .tile-img-link:hover .tile-img {
+		opacity: 0.5;
+	}
+
+	.tile-img {
+		display: block;
+		width: 100%;
+		height: auto;
+		opacity: 1;
+		-webkit-transition-property: opacity;
+		transition-property: opacity;
+		-webkit-transition-duration: 0.125s;
+		transition-duration: 0.125s;
+		-webkit-transition-timing-function: ease-in;
+		transition-timing-function: ease-in;
+	}
+	.tile-link:hover .tile-img1 {
+		box-shadow:
+			-5px 5px rgba(244, 170, 200, 0.4),
+			-10px 10px rgba(244, 170, 200, 0.3),
+			-15px 15px rgba(244, 170, 200, 0.2),
+			-20px 20px rgba(244, 170, 200, 0.1),
+			-25px 25px rgba(244, 170, 200, 0.05);
+	}
+
+	.tile-link:hover .tile-img2 {
+		box-shadow:
+			-5px 5px rgba(45, 186, 233, 0.4),
+			-10px 10px rgba(45, 186, 233, 0.3),
+			-15px 15px rgba(45, 186, 233, 0.2),
+			-20px 20px rgba(45, 186, 233, 0.1),
+			-25px 25px rgba(45, 186, 233, 0.05);
+	}
+
+	.tile-link:hover .tile-img3 {
+		box-shadow:
+			-5px 5px rgba(214, 221, 244, 0.4),
+			-10px 10px rgba(214, 221, 244, 0.3),
+			-15px 15px rgba(214, 221, 244, 0.2),
+			-20px 20px rgba(214, 221, 244, 0.1),
+			-25px 25px rgba(214, 221, 244, 0.05);
+	}
+
+	.tile-link:hover .tile-img4 {
+		box-shadow:
+			-5px 5px rgba(82, 119, 192, 0.4),
+			-10px 10px rgba(82, 119, 192, 0.3),
+			-15px 15px rgba(82, 119, 192, 0.2),
+			-20px 20px rgba(82, 119, 192, 0.1),
+			-25px 25px rgba(82, 119, 192, 0.05);
+	}
+
+	.tile-link:hover .tile-img5 {
+		box-shadow:
+			-5px 5px rgba(138, 218, 245, 0.4),
+			-10px 10px rgba(138, 218, 245, 0.3),
+			-15px 15px rgba(138, 218, 245, 0.2),
+			-20px 20px rgba(138, 218, 245, 0.1),
+			-25px 25px rgba(138, 218, 245, 0.05);
+	}
+
+	.tile-link:hover .tile-img6 {
+		box-shadow:
+			-5px 5px rgba(203, 215, 193, 0.4),
+			-10px 10px rgba(203, 215, 193, 0.3),
+			-15px 15px rgba(203, 215, 193, 0.2),
+			-20px 20px rgba(203, 215, 193, 0.1),
+			-25px 25px rgba(203, 215, 193, 0.05);
+	}
+
+	.tile-link:hover .tile-img7 {
+		box-shadow:
+			-5px 5px rgba(91, 209, 250, 0.4),
+			-10px 10px rgba(91, 209, 250, 0.3),
+			-15px 15px rgba(91, 209, 250, 0.2),
+			-20px 20px rgba(91, 209, 250, 0.1),
+			-25px 25px rgba(91, 209, 250, 0.05);
+	}
+
+	.tile-link:hover .tile-img8 {
+		box-shadow:
+			-5px 5px rgba(145, 156, 196, 0.4),
+			-10px 10px rgba(145, 156, 196, 0.3),
+			-15px 15px rgba(145, 156, 196, 0.2),
+			-20px 20px rgba(145, 156, 196, 0.1),
+			-25px 25px rgba(145, 156, 196, 0.05);
+	}
+
+	.tile-link:hover .tile-img9 {
+		box-shadow:
+			-5px 5px rgba(188, 97, 129, 0.4),
+			-10px 10px rgba(188, 97, 129, 0.3),
+			-15px 15px rgba(188, 97, 129, 0.2),
+			-20px 20px rgba(188, 97, 129, 0.1),
+			-25px 25px rgba(188, 97, 129, 0.05);
+	}
+
+	.tile-link:hover .tile-img10 {
+		box-shadow:
+			-5px 5px rgba(4, 140, 231, 0.4),
+			-10px 10px rgba(4, 140, 231, 0.3),
+			-15px 15px rgba(4, 140, 231, 0.2),
+			-20px 20px rgba(4, 140, 231, 0.1),
+			-25px 25px rgba(4, 140, 231, 0.05);
+	}
+</style>
