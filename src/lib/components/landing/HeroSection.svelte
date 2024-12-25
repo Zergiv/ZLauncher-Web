@@ -89,7 +89,7 @@
 					<!-- svelte-ignore a11y-img-redundant-alt -->
 					<img
 						class="tile-img tile-img1"
-						src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no"
+						src="https://techterra.x10.mx/PANTALLA3.png"
 						alt="Image"
 					/>
 				</a>
@@ -102,7 +102,7 @@
 					<!-- svelte-ignore a11y-img-redundant-alt -->
 					<img
 						class="tile-img tile-img2"
-						src="https://lh3.googleusercontent.com/pw/ACtC-3eO9L51TGiTghLao-VLNhO_C0egdgv7NfamlpdYbMAKCfXNlkk7WPPcxMJTaU9hO-HNnTqUivtavZ-6iK9mzoq0Qf3kJ5MAcnCoDUqbzd8VzpFKhu3mqDYZBG0KNGVxNHSEUwUiTxCUEFf_yFnNNLL0=w1384-h791-no"
+						src="https://techterra.x10.mx/zweb5.png"
 						alt="Image"
 					/>
 				</a>
