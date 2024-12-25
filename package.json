@@ -1,5 +1,4 @@
 {
-	"name": "startup-template",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -34,7 +33,11 @@
 		"vite": "^5.0.3"
 	},
 	"type": "module",
+	"engines": {
+		"node": ">=18.18.0"
+	},
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^4.9.0",
 		"bits-ui": "^0.21.12",
 		"clsx": "^2.1.1",
 		"lenis": "^1.1.8",
