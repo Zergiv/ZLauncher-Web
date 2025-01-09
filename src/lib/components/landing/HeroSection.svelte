@@ -225,19 +225,20 @@
 	.grid {
 		width: 100%;
 		max-width: 60rem;
-		margin-left: auto;
-		margin-right: auto;
+		min-width: 30rem;
+		margin: 0 auto;
 
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.grid-block {
 		width: 50%;
-		min-height: 11.25rem;
+		min-height: auto;
+		max-width: 30rem;
+		min-width: 15rem;
 		padding: 1rem;
 	}
 
